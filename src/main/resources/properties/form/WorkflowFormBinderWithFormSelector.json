@@ -1,0 +1,26 @@
+[
+   {
+      "title":"@@form.WorkflowFormBinderWithFormSelector.name@@",
+      "properties":[
+         {
+            "name":"formDefId",
+            "label":"@@form.mulitrowformbinder.formId@@",
+            "type":"selectbox",
+            "options_ajax":"[CONTEXT_PATH]/web/json/console/app/%s/%s/forms/options",
+            "required":"True"
+         },
+         {
+            "name":"removeId",
+            "label":"@@form.WorkflowFormBinderWithFormSelector.removeId@@",
+            "type":"checkbox",
+            "value":"false",
+            "options":[
+               {
+                  "value":"true",
+                  "label":""
+               }
+            ]
+         }
+      ]
+   }
+]
