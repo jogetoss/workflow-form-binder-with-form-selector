@@ -92,6 +92,12 @@ public class WorkflowFormBinderWithFormSelector extends DefaultFormBinderWithFor
                 loadWorkflowVariables(element, row, variableMap);
             }
         }
+        
+        if(getPropertyString("removeId").equalsIgnoreCase("true")){
+            for (FormRow row : rows) {
+                row.setId(null);
+            }
+        }
         return rows;
     }
 

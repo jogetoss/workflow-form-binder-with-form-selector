@@ -12,6 +12,7 @@
          {
             "name":"removeId",
             "label":"@@form.WorkflowFormBinderWithFormSelector.removeId@@",
+            "description":"@@form.WorkflowFormBinderWithFormSelector.removeId.desc@@",
             "type":"checkbox",
             "value":"false",
             "options":[
