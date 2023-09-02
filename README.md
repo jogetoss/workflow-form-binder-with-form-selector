@@ -1,6 +1,6 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+**Workflow Form Binder with Form Selector** allows one to save / load record from different table with the option to empty the ID field to facilitate use cases such as saving as a new record row.
 
 # Getting Help
 
